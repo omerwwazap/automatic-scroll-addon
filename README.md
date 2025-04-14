@@ -15,6 +15,10 @@ A Firefox browser extension that automatically scrolls web pages at a customizab
 1. Download from Firefox Add-ons Store (link coming soon)
 2. Or load as temporary add-on in `about:debugging`
 
+### Firefox Add-ons Store
+
+1. (Coming Soon)
+
 ## Usage
 
 1. Click the extension icon to open controls
