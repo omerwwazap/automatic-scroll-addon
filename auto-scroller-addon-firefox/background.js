@@ -1,14 +1,10 @@
+import { Constants } from './constants.js';
+
 /**
  * Background script for the Auto Page Scroller Firefox Add-on.
  * Handles keyboard commands to control scrolling speed.
  * The browser action click is now handled by opening popup.html.
  */
-
-// --- Configuration ---
-const SPEED_CHANGE_AMOUNT = 15; // Milliseconds to add/subtract from the interval via shortcut
-const MIN_INTERVAL_MS = 10;     // Fastest allowed scroll interval (remains 10ms)
-const MAX_INTERVAL_MS = 300;    // Slowest allowed scroll interval *** CHANGED FROM 500 ***
-// ---------------------
 
 /**
  * Sends a message to the content script of the currently active tab.
@@ -46,17 +42,17 @@ browser.commands.onCommand.addListener((command) => {
     case "increase-scroll-speed":
       sendMessageToActiveTab({
         command: "change-speed", // Relative change
-        amount: -SPEED_CHANGE_AMOUNT,
-        minInterval: MIN_INTERVAL_MS, // Use updated constants for clamping
-        maxInterval: MAX_INTERVAL_MS
+        amount: -Constants.SPEED_CHANGE_AMOUNT,
+        minInterval: Constants.MIN_INTERVAL_MS, // Use updated constants for clamping
+        maxInterval: Constants.MAX_INTERVAL_MS
       });
       break;
     case "decrease-scroll-speed":
       sendMessageToActiveTab({
         command: "change-speed", // Relative change
-        amount: SPEED_CHANGE_AMOUNT,
-        minInterval: MIN_INTERVAL_MS, // Use updated constants for clamping
-        maxInterval: MAX_INTERVAL_MS
+        amount: Constants.SPEED_CHANGE_AMOUNT,
+        minInterval: Constants.MIN_INTERVAL_MS, // Use updated constants for clamping
+        maxInterval: Constants.MAX_INTERVAL_MS
       });
       break;
     default:
