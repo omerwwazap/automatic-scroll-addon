@@ -8,7 +8,7 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "automatic-scroll-addon@github.com",
-      "update_url": "https://raw.githubusercontent.com/omerwwazap/automatic-scroll-addon/main/updates.json"
+      "update_url": "https://raw.githubusercontent.com/omerwwazap/automatic-scroll-addon/refs/heads/main/auto-scroller-addon-firefox/updates.json"
     }
   },
 
