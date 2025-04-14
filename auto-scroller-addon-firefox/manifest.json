@@ -5,6 +5,13 @@
   "description": "Automatically scrolls the page. Click icon for controls. Use Ctrl+Shift+Up/Down to change speed.",
   "homepage_url": "https://github.com/omerwwazap/automatic-scroll-addon",
 
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "automatic-scroll-addon@github.com",
+      "update_url": "https://raw.githubusercontent.com/omerwwazap/automatic-scroll-addon/main/updates.json"
+    }
+  },
+
   "permissions": ["activeTab", "scripting", "storage"],
 
   "background": {

@@ -1,0 +1,17 @@
+{
+  "addons": {
+    "automatic-scroll-addon@github.com": {
+      "updates": [
+        {
+          "version": "1.2.1",
+          "update_link": "https://github.com/omerwwazap/automatic-scroll-addon/releases/download/v1.2.1/auto_page_scroller-1.2.1.xpi",
+          "applications": {
+            "gecko": {
+              "strict_min_version": "109.0"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
