@@ -25,10 +25,7 @@
     "default_popup": "popup.html",
     "default_title": "Auto Scroller Controls",
     "default_icon": {
-      "16": "icons/down-arrow.png",
-      "32": "icons/left-arrow.png",
-      "48": "icons/right-arrow.png",
-      "96": "icons/up-arrow.png"
+      "16": "icons/right-arrow.png"
     }
   },
 
