@@ -10,6 +10,12 @@ A Firefox browser extension that automatically scrolls web pages at a customizab
 - Persistent speed settings
 - Clean, intuitive interface
 
+### Direct Download (Recommended)
+
+1. Download the extension from [here](https://addons.mozilla.org/firefox/downloads/file/4474332/995d368d364f4b1e86b2-1.2.1.xpi)
+2. Firefox will automatically prompt you to install the extension
+3. Click "Add" to complete installation
+
 ## Installation
 
 1. Download from Firefox Add-ons Store (link coming soon)
